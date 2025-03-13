@@ -96,4 +96,4 @@ After running the backend, API documentation is available at:
 
 ## Features
 
-- Check out project report
+- Check out the project report
