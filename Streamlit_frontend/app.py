@@ -327,7 +327,7 @@ def main():
             )
             if health_data:
                 st.markdown(f"<p><b>Model:</b> {health_data.get('model_status', 'Active')}</p>", unsafe_allow_html=True)
-                st.markdown(f"<p><b>Environment:</b> {health_data.get('environment', 'Production')}</p>", unsafe_allow_html=True)
+                #st.markdown(f"<p><b>Environment:</b> {health_data.get('environment', 'Production')}</p>", unsafe_allow_html=True)
         else:
             st.markdown(
                 "<p><span class='status-indicator status-offline'></span> <b>API Status:</b> Offline</p>",
